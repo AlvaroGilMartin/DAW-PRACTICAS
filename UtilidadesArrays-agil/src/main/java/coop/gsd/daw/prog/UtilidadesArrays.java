@@ -19,7 +19,7 @@ public static double media (int [] array) {
 	     }
 	     media/=array.length;
 	    return media;   
-	    }
+	    }       
 /**
  * La función maximo recoge un array de enteros y 
  * devuleve el mayor numero de los numeros guardados en el array.
