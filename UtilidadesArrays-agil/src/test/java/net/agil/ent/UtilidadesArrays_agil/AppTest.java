@@ -79,7 +79,7 @@ public class AppTest {
 	}
 
 	@Test
-	@DisplayName("Comprueba minimo numero con negativos")
+	@DisplayName("Comprueba minimo numero con negativos ")
 	public void CompruebaMinimoNumNegativo() {
 		int[] array = { 3, -5, 8, 4 };
 		UtilidadesArrays Ua1 = new UtilidadesArrays();
