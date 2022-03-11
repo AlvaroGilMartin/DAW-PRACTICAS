@@ -9,7 +9,7 @@ public class App
 	 public static void main( String[] args )
 	    {
 	    	if (args.length < 1) {
-				System.err.println("No has introducido los argumentos necesarios o son errÃ³neos");
+				System.err.println("No has introducido los argumentos necesarios o son erroneos");
 				return;
 			}
 
@@ -21,7 +21,7 @@ public class App
 					String linea = file.nextLine();
 					String [] array = linea.split(",");
 					for (int i=0; i < array.length ; i++) {
-						System.out.println("[" + linea + "]");
+						System.out.println("[" + array[i] + "]");
 					}
 				}
 
