@@ -15,7 +15,7 @@ public void insertar(ArrayList<String> alum) {
 			a = alum.get(i).split(",");
 			String mod = a[0];
 			String numl = a[1];
-			String id =  a[2];
+			String id =  a[2]; 
 			s.executeUpdate("INSERT INTO a (numl,mod,mac,ip,id1) values ("+numl+","+mod+",null,null,"+id+")");
 					}
 		s.close();
